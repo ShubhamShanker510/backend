@@ -2,22 +2,22 @@
 
 # Step 1 Setup empty files and folder
 
-## public
-   ->temp
-   ->gitkeep
+### public
+      1. temp
+      1.1 gitkeep
 
-## src
-   ->controllers
-   ->db
-   ->middlewares
-   ->models
-   ->routes
-   ->utils
-   ->app.js
-   ->constants.js
-   ->index.js
+### src
+      1. controllers
+      2. db
+      3. middlewares
+      4. models
+      5. routes
+      6. utils
+      7. app.js
+      8. constants.js
+      9. index.js
 
-## gitignore
+### gitignore
 
 importing from git generator
 
@@ -64,3 +64,14 @@ dotenv.config({
 
 
 ### package Installed are cors an cookie-parser
+
+# Step 4 User model and Video with hooks and JWT
+
+1. Created User model and video model in models files
+2. Use bcrypt for hashing the password and also to compare the password by making some custom methods
+3. Similarly use jwt token for generating access token and generating refresh token 
+4. All access token are stored in .env file for security
+
+### For generating token use jwt generator secret online (link: https://jwtsecret.com/generate)
+
+### package installed are bcrypt and jsonwebtoken
