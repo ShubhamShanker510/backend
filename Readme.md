@@ -41,3 +41,26 @@ dotenv.config({
 (For eg : import connectDB from './db/index.js';)
 
 ### package Installed are dotenv, mongoose and express
+
+# Step 3 Custom Api and Error Handling
+
+1. In index.js .then and catch method used after databse connection to run the port 
+
+2. In app.js cors, static urlencoded and cookie parser are configure
+
+3. For Handling promises build a file asyncHandler in utiliy and also similary to handle api response and api error similarly files are created in utils to use then as wrapper function
+
+### Status Code
+    
+    1. Informational responses 100-199
+
+    2. Successful responses 200-299
+
+    3. Redirection messages 300-399
+
+    4. Client error responses 400-499
+
+    5. Server error responses 500-599
+
+
+### package Installed are cors an cookie-parser
