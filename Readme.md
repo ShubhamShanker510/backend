@@ -75,3 +75,13 @@ dotenv.config({
 ### For generating token use jwt generator secret online (link: https://jwtsecret.com/generate)
 
 ### package installed are bcrypt and jsonwebtoken
+
+# Step 5 Upload file in Backend
+
+1. Use Cloudinary for saving files for which we need cloud name, api key and api secret and for securance put it in .env file(In utils folder as cloudinary.js)
+
+2. User multer as middleware for file handling to store file in disk storge
+
+### It is better to store file in disk storage as image or video or any other file can be of large memory
+
+### package installed are multer and cloudinary
