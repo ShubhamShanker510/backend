@@ -85,3 +85,15 @@ dotenv.config({
 ### It is better to store file in disk storage as image or video or any other file can be of large memory
 
 ### package installed are multer and cloudinary
+
+# Step 6 Router and controller debugging
+
+1. create registerUser and user.controller in controller folder
+
+2. Import registerUser in user.routes and created first route
+
+3. Import userRoute in app.js and step up it
+
+### Always remember to set up routes in app.js always start with /api/v1
+
+### despending on which version you are working on
