@@ -103,3 +103,7 @@ dotenv.config({
 1. created registerUser in user.controller file
 
 2. use middleware in routes with the help of multer 
+
+# Step 8 setting up postman
+
+ create new collections and enviroment variables in postman and connectiog both

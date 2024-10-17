@@ -53,7 +53,7 @@ const userSchema=new mongoose.Schema({
 //going to encrypt password before saving to database
 // always avoid call back function as thier is no refrence of 'this'
 userSchema.pre("save", async function(next){
-    if(this.isModified("password")) return next();
+    if(!this.isModified("password")) return next();
 
     this.password=await bcrypt.hash(this.password, 10)
     next()
