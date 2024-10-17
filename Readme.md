@@ -97,3 +97,9 @@ dotenv.config({
 ### Always remember to set up routes in app.js always start with /api/v1
 
 ### despending on which version you are working on
+
+# Step 7 Logic Build to register User
+
+1. created registerUser in user.controller file
+
+2. use middleware in routes with the help of multer 
