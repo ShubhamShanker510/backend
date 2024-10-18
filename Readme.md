@@ -116,5 +116,16 @@ dotenv.config({
 
 3. create auth middleware to get user token for logout
 
-### Basically use of refresh token is to not make user to tpe email and password for login again and again and refresh token expiry time is basically larger than access token
+4. passed in user.routes
 
+### Basically use of refresh token is to not make user to type email and password for login again and again 
+
+### refresh token expiry time is basically larger than access token
+
+# Step 11 Generating new Refresh Token and also done some debugging
+
+1. create a refreshToken in usercontroller
+
+2. passed in user.route
+
+### basically when the accesstoken got expired during that time what happen rather than showing it error a new fresh token got generated just by comparing the token
