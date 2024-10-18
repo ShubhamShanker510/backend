@@ -107,3 +107,14 @@ dotenv.config({
 # Step 8 setting up postman
 
  create new collections and enviroment variables in postman and connectiog both
+
+# Step 9 Access Refresh Token, Middleware and cookies in Backend
+
+1. create a logged in and logout user in user controller
+
+2.  create a constant fuction generateaccessandrefreshtokens in user controller
+
+3. create auth middleware to get user token for logout
+
+### Basically use of refresh token is to not make user to tpe email and password for login again and again and refresh token expiry time is basically larger than access token
+
