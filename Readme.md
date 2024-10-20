@@ -129,3 +129,8 @@ dotenv.config({
 2. passed in user.route
 
 ### basically when the accesstoken got expired during that time what happen rather than showing it error a new fresh token got generated just by comparing the token
+
+# Step 12 
+1. Change current password , get user and getting user just because of auth middleware , update avatar, update cover image, update account details in user controller
+
+2. Created Subscription model also
