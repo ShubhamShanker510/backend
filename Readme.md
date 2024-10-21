@@ -130,7 +130,12 @@ dotenv.config({
 
 ### basically when the accesstoken got expired during that time what happen rather than showing it error a new fresh token got generated just by comparing the token
 
-# Step 12 
+# Step 12 Writting update controllers for users
+
 1. Change current password , get user and getting user just because of auth middleware , update avatar, update cover image, update account details in user controller
 
 2. Created Subscription model also
+
+# step 13 Understanding mongodb aggregation pipeliness
+
+1. created getUserChannelProfile in which we are adding new field connectiong databases and for more further wathc chai aur code mongodb aggregation pipelines 
